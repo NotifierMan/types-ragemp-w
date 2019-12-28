@@ -3,7 +3,7 @@
 // -------------------------------------------------------------------------
 
 interface Mp {
-	trigger(event: string, params: number | string): void;
+	trigger(event: string, params?: number | string): void;
 }
 
 // -------------------------------------------------------------------------
